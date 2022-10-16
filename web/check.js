@@ -1,4 +1,4 @@
-function colc() {
+function updatePrice() {
     let s = document.getElementsByName("type");
     let select = s[0];
     let price = 0;
