@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=ru>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Задание 6</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="check.js"></script>
+    </head>
+<body>
+        <header class="text-left">
+            <img class="logo float-left" src="logoza.ru.png" alt="Лого">
+            <h3>Книжная лавка "Мир чудес"</h3>
+        </header>
+<div class="container-fluid">
+            <h2>Корзина:</h2>
+            <form name="calculator" >
+                <div class="row">
+                    <div class="col-5 col-lg-3">
+                      книги
+                    </div>            
+                    <div class="col-7 col-lg-4">
+                        Количество
+                    </div>
+                </div>
+                
+                <div class="row">
+                     <div class="col-5 col-lg-3">
+                        <select name="type">
+                            <option value="1">"Язык СИ++" </option>
+                            <option value="2">"Шерлок Холмс"  </option>
+                            <option value="3"> "Код да Винчи" </option>
+                        </select>
+                    </div>
+                     <div class="col-7 col-lg-4">
+                        <input id="count" type="number" value="1">
+                    </div>
+                    <div class="col-lg-5"></div>
+                   <br>
+                    <div class="row">
+                        <div id="radios">
+                            <div class="col-12 pl-4">
+                                <label><input type="radio" name="options" value="1">&nbsp Старое издание</label>
+                            </div>
+                            <div class="col-12 pl-4">
+                                <label><input type="radio" name="options" value="2">&nbsp Новое издание</label>
+                            </div>
+                        </div>
+                    </div>
+ <div class="row">
+                        <div id="checkboxes">
+                            <div class="col-12 pl-4">
+                                <label><input type="checkbox" name="1">&nbsp Твердая обложка</label>
+                            </div>
+                            <div class="col-12 pl-4">
+                                <label><input type="checkbox" name="2">&nbsp  Скругленный корешок</label>
+                            </div>
+                            <div class="col-12 pl-4">
+                                <label><input type="checkbox" name="3">&nbsp С автографом автора</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+<bottom class="text-left">
+        <div class="row">
+            <div class="col-8 mt-2">
+                <h1>Сумма заказа:</h1>
+                <div class="text-left" id="price"></div>
+            </div>
+        </div>
+    </bottom>
+
+    </body>
+</html>
+                    

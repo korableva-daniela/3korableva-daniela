@@ -1,0 +1,70 @@
+.logo {
+    width: 32px;
+    border-radius: 25% 10%;
+    border: 5px outset #4169E1;
+}
+
+header {
+    background: #87CEFA;
+    border-bottom: 5px outset #6A5ACD;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 15px;
+    color: #483D8B;
+    font-weight: 350;
+}
+
+h2 {
+    font-size: 18px;
+    color: #191970;
+    font-weight: 500;
+}
+
+.container-fluid {
+    background-color: #B0E0E6;
+    font-size: 10px;
+}
+
+b {
+    font-size: 10px;
+    color: #191970;
+    font-weight: 500;
+}
+
+
+button {
+    background-color: #87CEFA;
+    border: 7px double #00008B;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .container-fluid {
+        font-size: 20px;
+    }
+
+    b {
+        font-size: 30px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+}
